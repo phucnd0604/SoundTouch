@@ -1,0 +1,6 @@
+framework module Spring {
+  umbrella header "Pods-SoundTouch-Spring-umbrella.h"
+
+  export *
+  module * { export * }
+}

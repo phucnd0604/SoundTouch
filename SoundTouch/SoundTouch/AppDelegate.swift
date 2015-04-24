@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Spring
 
 let soundPlayer = SoundPlayer()
 @UIApplicationMain
@@ -17,23 +18,28 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     // Override point for customization after application launch.
+    // set up core data
+    DataManager.shareInstance.initDataBase()
     // create tabbar
     tabbarController = UITabBarController()
     tabbarController.tabBar.translucent = false
     // create animal tab
     var animalVC = BaseViewController(nibName: "BaseViewController", bundle: nil)
+    animalVC.baseVCTab = .animal
     var nav1 = UINavigationController(rootViewController: animalVC)
     nav1.navigationBar.translucent = false
     nav1.tabBarItem.image = UIImage(named: "tb_animal.png")
     nav1.tabBarItem.title = "Aninal"
     // create instrusment tab
     var instrumentVC = BaseViewController(nibName: "BaseViewController", bundle: nil)
+    instrumentVC.baseVCTab = .instrusment
     var nav2 = UINavigationController(rootViewController: instrumentVC)
     nav2.navigationBar.translucent = false
     nav2.tabBarItem.image = UIImage(named: "tb_instrusment.png")
     nav2.tabBarItem.title = "Instrusment"
     // create vechicle tab
     var vehicleVC = BaseViewController(nibName: "BaseViewController", bundle: nil)
+    vehicleVC.baseVCTab = .vehicle
     var nav3 = UINavigationController(rootViewController: vehicleVC)
     nav3.navigationBar.translucent = false
     nav3.tabBarItem.image = UIImage(named: "tb_vehicle.png")

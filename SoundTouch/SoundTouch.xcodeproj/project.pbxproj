@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02D8C2651AE9E8640000120B /* Spring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D8C2641AE9E8640000120B /* Spring.framework */; };
+		02D8C2691AE9EA310000120B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D8C2681AE9EA310000120B /* DataManager.swift */; };
+		02D8C26B1AE9EA530000120B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02D8C26A1AE9EA530000120B /* CoreData.framework */; };
+		02D8C2A31AE9EF1D0000120B /* SoundTouch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02D8C2A11AE9EF1D0000120B /* SoundTouch.xcdatamodeld */; };
+		02D8C2A51AE9F3620000120B /* Categorirs.json in Resources */ = {isa = PBXBuildFile; fileRef = 02D8C2A41AE9F3620000120B /* Categorirs.json */; };
+		02D8C2AC1AE9F5DF0000120B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D8C2AB1AE9F5DF0000120B /* Model.swift */; };
+		02D8C2B01AEA1D540000120B /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D8C2AF1AEA1D540000120B /* Categories.swift */; };
 		BEC3EBCB1AE930EA00CB4EF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EBCA1AE930EA00CB4EF7 /* AppDelegate.swift */; };
 		BEC3EBD21AE930EA00CB4EF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC3EBD11AE930EA00CB4EF7 /* Images.xcassets */; };
 		BEC3EBD51AE930EA00CB4EF7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEC3EBD31AE930EA00CB4EF7 /* LaunchScreen.xib */; };
@@ -18,37 +25,9 @@
 		BEC3EC031AE93E5E00CB4EF7 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC021AE93E5E00CB4EF7 /* CollectionViewCell.swift */; };
 		BEC3EC0C1AE9508A00CB4EF7 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC0A1AE9508A00CB4EF7 /* BaseViewController.swift */; };
 		BEC3EC0D1AE9508A00CB4EF7 /* BaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEC3EC0B1AE9508A00CB4EF7 /* BaseViewController.xib */; };
-		BEC3EC2E1AE95E3A00CB4EF7 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC101AE95E3A00CB4EF7 /* AsyncButton.swift */; };
-		BEC3EC2F1AE95E3A00CB4EF7 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC111AE95E3A00CB4EF7 /* AsyncImageView.swift */; };
-		BEC3EC301AE95E3A00CB4EF7 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC121AE95E3A00CB4EF7 /* AutoTextView.swift */; };
-		BEC3EC311AE95E3A00CB4EF7 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC131AE95E3A00CB4EF7 /* BlurView.swift */; };
-		BEC3EC321AE95E3A00CB4EF7 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC141AE95E3A00CB4EF7 /* DesignableButton.swift */; };
-		BEC3EC331AE95E3A00CB4EF7 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC151AE95E3A00CB4EF7 /* DesignableImageView.swift */; };
-		BEC3EC341AE95E3A00CB4EF7 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC161AE95E3A00CB4EF7 /* DesignableLabel.swift */; };
-		BEC3EC351AE95E3A00CB4EF7 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC171AE95E3A00CB4EF7 /* DesignableTabBarController.swift */; };
-		BEC3EC361AE95E3A00CB4EF7 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC181AE95E3A00CB4EF7 /* DesignableTextField.swift */; };
-		BEC3EC371AE95E3A00CB4EF7 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC191AE95E3A00CB4EF7 /* DesignableTextView.swift */; };
-		BEC3EC381AE95E3A00CB4EF7 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC1A1AE95E3A00CB4EF7 /* DesignableView.swift */; };
-		BEC3EC391AE95E3A00CB4EF7 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC1B1AE95E3A00CB4EF7 /* ImageLoader.swift */; };
-		BEC3EC3A1AE95E3A00CB4EF7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEC3EC1C1AE95E3A00CB4EF7 /* Info.plist */; };
-		BEC3EC3B1AE95E3A00CB4EF7 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC1D1AE95E3A00CB4EF7 /* KeyboardLayoutConstraint.swift */; };
-		BEC3EC3C1AE95E3A00CB4EF7 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC1E1AE95E3A00CB4EF7 /* LoadingView.swift */; };
-		BEC3EC3D1AE95E3A00CB4EF7 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEC3EC1F1AE95E3A00CB4EF7 /* LoadingView.xib */; };
-		BEC3EC3E1AE95E3A00CB4EF7 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC201AE95E3A00CB4EF7 /* Misc.swift */; };
-		BEC3EC3F1AE95E3A00CB4EF7 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC211AE95E3A00CB4EF7 /* SoundPlayer.swift */; };
-		BEC3EC401AE95E3A00CB4EF7 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC231AE95E3A00CB4EF7 /* Spring.swift */; };
-		BEC3EC411AE95E3A00CB4EF7 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC241AE95E3A00CB4EF7 /* SpringAnimation.swift */; };
-		BEC3EC421AE95E3A00CB4EF7 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC251AE95E3A00CB4EF7 /* SpringButton.swift */; };
-		BEC3EC431AE95E3A00CB4EF7 /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC261AE95E3A00CB4EF7 /* SpringImageView.swift */; };
-		BEC3EC441AE95E3A00CB4EF7 /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC271AE95E3A00CB4EF7 /* SpringLabel.swift */; };
-		BEC3EC451AE95E3A00CB4EF7 /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC281AE95E3A00CB4EF7 /* SpringTextField.swift */; };
-		BEC3EC461AE95E3A00CB4EF7 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC291AE95E3A00CB4EF7 /* SpringTextView.swift */; };
-		BEC3EC471AE95E3A00CB4EF7 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC2A1AE95E3A00CB4EF7 /* SpringView.swift */; };
-		BEC3EC481AE95E3A00CB4EF7 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC2B1AE95E3A00CB4EF7 /* TransitionManager.swift */; };
-		BEC3EC491AE95E3A00CB4EF7 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC2C1AE95E3A00CB4EF7 /* TransitionZoom.swift */; };
-		BEC3EC4A1AE95E3A00CB4EF7 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EC2D1AE95E3A00CB4EF7 /* UnwindSegue.swift */; };
 		BEC3EC511AE962A800CB4EF7 /* cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = BEC3EC501AE962A800CB4EF7 /* cat.wav */; };
 		BEC3EC531AE962E100CB4EF7 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = BEC3EC521AE962E100CB4EF7 /* data.json */; };
+		F7FAD3944FF96ADE4CB2D920 /* Pods_SoundTouch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41ECB986BEE0B741392A8BD3 /* Pods_SoundTouch.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02D8C2641AE9E8640000120B /* Spring.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Spring.framework; path = "Pods/../build/Debug-iphoneos/Pods-SoundTouch/Spring.framework"; sourceTree = "<group>"; };
+		02D8C2681AE9EA310000120B /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		02D8C26A1AE9EA530000120B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		02D8C2A21AE9EF1D0000120B /* SoundTouch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SoundTouch.xcdatamodel; sourceTree = "<group>"; };
+		02D8C2A41AE9F3620000120B /* Categorirs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Categorirs.json; sourceTree = "<group>"; };
+		02D8C2AB1AE9F5DF0000120B /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = SOURCE_ROOT; };
+		02D8C2AF1AEA1D540000120B /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = SOURCE_ROOT; };
+		2F22966C09BC382F959554EF /* Pods-SoundTouch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundTouch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoundTouch/Pods-SoundTouch.debug.xcconfig"; sourceTree = "<group>"; };
+		41ECB986BEE0B741392A8BD3 /* Pods_SoundTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoundTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71ECFE381D553BEEC1DD0F3E /* Pods-SoundTouch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundTouch.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoundTouch/Pods-SoundTouch.release.xcconfig"; sourceTree = "<group>"; };
 		BEC3EBC51AE930EA00CB4EF7 /* SoundTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC3EBC91AE930EA00CB4EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEC3EBCA1AE930EA00CB4EF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,36 +66,6 @@
 		BEC3EC021AE93E5E00CB4EF7 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		BEC3EC0A1AE9508A00CB4EF7 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		BEC3EC0B1AE9508A00CB4EF7 /* BaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseViewController.xib; sourceTree = "<group>"; };
-		BEC3EC101AE95E3A00CB4EF7 /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
-		BEC3EC111AE95E3A00CB4EF7 /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
-		BEC3EC121AE95E3A00CB4EF7 /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTextView.swift; sourceTree = "<group>"; };
-		BEC3EC131AE95E3A00CB4EF7 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
-		BEC3EC141AE95E3A00CB4EF7 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
-		BEC3EC151AE95E3A00CB4EF7 /* DesignableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
-		BEC3EC161AE95E3A00CB4EF7 /* DesignableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableLabel.swift; sourceTree = "<group>"; };
-		BEC3EC171AE95E3A00CB4EF7 /* DesignableTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTabBarController.swift; sourceTree = "<group>"; };
-		BEC3EC181AE95E3A00CB4EF7 /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
-		BEC3EC191AE95E3A00CB4EF7 /* DesignableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextView.swift; sourceTree = "<group>"; };
-		BEC3EC1A1AE95E3A00CB4EF7 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
-		BEC3EC1B1AE95E3A00CB4EF7 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
-		BEC3EC1C1AE95E3A00CB4EF7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BEC3EC1D1AE95E3A00CB4EF7 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
-		BEC3EC1E1AE95E3A00CB4EF7 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
-		BEC3EC1F1AE95E3A00CB4EF7 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
-		BEC3EC201AE95E3A00CB4EF7 /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
-		BEC3EC211AE95E3A00CB4EF7 /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
-		BEC3EC221AE95E3A00CB4EF7 /* Spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spring.h; sourceTree = "<group>"; };
-		BEC3EC231AE95E3A00CB4EF7 /* Spring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
-		BEC3EC241AE95E3A00CB4EF7 /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
-		BEC3EC251AE95E3A00CB4EF7 /* SpringButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringButton.swift; sourceTree = "<group>"; };
-		BEC3EC261AE95E3A00CB4EF7 /* SpringImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringImageView.swift; sourceTree = "<group>"; };
-		BEC3EC271AE95E3A00CB4EF7 /* SpringLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringLabel.swift; sourceTree = "<group>"; };
-		BEC3EC281AE95E3A00CB4EF7 /* SpringTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextField.swift; sourceTree = "<group>"; };
-		BEC3EC291AE95E3A00CB4EF7 /* SpringTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextView.swift; sourceTree = "<group>"; };
-		BEC3EC2A1AE95E3A00CB4EF7 /* SpringView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringView.swift; sourceTree = "<group>"; };
-		BEC3EC2B1AE95E3A00CB4EF7 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
-		BEC3EC2C1AE95E3A00CB4EF7 /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
-		BEC3EC2D1AE95E3A00CB4EF7 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
 		BEC3EC501AE962A800CB4EF7 /* cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cat.wav; sourceTree = "<group>"; };
 		BEC3EC521AE962E100CB4EF7 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,6 +75,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02D8C26B1AE9EA530000120B /* CoreData.framework in Frameworks */,
+				02D8C2651AE9E8640000120B /* Spring.framework in Frameworks */,
+				F7FAD3944FF96ADE4CB2D920 /* Pods_SoundTouch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,12 +91,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02D8C2671AE9EA210000120B /* DadaManager */ = {
+			isa = PBXGroup;
+			children = (
+				02D8C2681AE9EA310000120B /* DataManager.swift */,
+			);
+			path = DadaManager;
+			sourceTree = "<group>";
+		};
+		02D8C2A61AE9F59B0000120B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02D8C2AF1AEA1D540000120B /* Categories.swift */,
+				02D8C2AB1AE9F5DF0000120B /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0DB0EE75F9B7BE5D876D8528 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F22966C09BC382F959554EF /* Pods-SoundTouch.debug.xcconfig */,
+				71ECFE381D553BEEC1DD0F3E /* Pods-SoundTouch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BEC3EBBC1AE930EA00CB4EF7 = {
 			isa = PBXGroup;
 			children = (
 				BEC3EBC71AE930EA00CB4EF7 /* SoundTouch */,
 				BEC3EBDD1AE930EB00CB4EF7 /* SoundTouchTests */,
 				BEC3EBC61AE930EA00CB4EF7 /* Products */,
+				0DB0EE75F9B7BE5D876D8528 /* Pods */,
+				C4E2274BE8B68CC22DBDC37C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				BEC3EC0E1AE95E3A00CB4EF7 /* Library */,
+				02D8C2A61AE9F59B0000120B /* Model */,
 				BEC3EBEA1AE9333A00CB4EF7 /* Controller */,
 				BEC3EBF01AE935A200CB4EF7 /* Resource */,
 				BEC3EBD11AE930EA00CB4EF7 /* Images.xcassets */,
@@ -165,6 +156,7 @@
 				BEC3EBD31AE930EA00CB4EF7 /* LaunchScreen.xib */,
 				BEC3EBCA1AE930EA00CB4EF7 /* AppDelegate.swift */,
 				BEC3EBC91AE930EA00CB4EF7 /* Info.plist */,
+				02D8C2A11AE9EF1D0000120B /* SoundTouch.xcdatamodeld */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -189,6 +181,7 @@
 		BEC3EBEA1AE9333A00CB4EF7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				02D8C2671AE9EA210000120B /* DadaManager */,
 				BEC3EBEB1AE9333A00CB4EF7 /* BaseViewController */,
 			);
 			path = Controller;
@@ -210,6 +203,7 @@
 				BEC3EBF21AE935A200CB4EF7 /* Sound */,
 				BEC3EBF11AE935A200CB4EF7 /* Image */,
 				BEC3EC521AE962E100CB4EF7 /* data.json */,
+				02D8C2A41AE9F3620000120B /* Categorirs.json */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -244,46 +238,18 @@
 		BEC3EC0E1AE95E3A00CB4EF7 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				BEC3EC0F1AE95E3A00CB4EF7 /* Spring */,
 			);
 			path = Library;
 			sourceTree = "<group>";
 		};
-		BEC3EC0F1AE95E3A00CB4EF7 /* Spring */ = {
+		C4E2274BE8B68CC22DBDC37C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BEC3EC101AE95E3A00CB4EF7 /* AsyncButton.swift */,
-				BEC3EC111AE95E3A00CB4EF7 /* AsyncImageView.swift */,
-				BEC3EC121AE95E3A00CB4EF7 /* AutoTextView.swift */,
-				BEC3EC131AE95E3A00CB4EF7 /* BlurView.swift */,
-				BEC3EC141AE95E3A00CB4EF7 /* DesignableButton.swift */,
-				BEC3EC151AE95E3A00CB4EF7 /* DesignableImageView.swift */,
-				BEC3EC161AE95E3A00CB4EF7 /* DesignableLabel.swift */,
-				BEC3EC171AE95E3A00CB4EF7 /* DesignableTabBarController.swift */,
-				BEC3EC181AE95E3A00CB4EF7 /* DesignableTextField.swift */,
-				BEC3EC191AE95E3A00CB4EF7 /* DesignableTextView.swift */,
-				BEC3EC1A1AE95E3A00CB4EF7 /* DesignableView.swift */,
-				BEC3EC1B1AE95E3A00CB4EF7 /* ImageLoader.swift */,
-				BEC3EC1C1AE95E3A00CB4EF7 /* Info.plist */,
-				BEC3EC1D1AE95E3A00CB4EF7 /* KeyboardLayoutConstraint.swift */,
-				BEC3EC1E1AE95E3A00CB4EF7 /* LoadingView.swift */,
-				BEC3EC1F1AE95E3A00CB4EF7 /* LoadingView.xib */,
-				BEC3EC201AE95E3A00CB4EF7 /* Misc.swift */,
-				BEC3EC211AE95E3A00CB4EF7 /* SoundPlayer.swift */,
-				BEC3EC221AE95E3A00CB4EF7 /* Spring.h */,
-				BEC3EC231AE95E3A00CB4EF7 /* Spring.swift */,
-				BEC3EC241AE95E3A00CB4EF7 /* SpringAnimation.swift */,
-				BEC3EC251AE95E3A00CB4EF7 /* SpringButton.swift */,
-				BEC3EC261AE95E3A00CB4EF7 /* SpringImageView.swift */,
-				BEC3EC271AE95E3A00CB4EF7 /* SpringLabel.swift */,
-				BEC3EC281AE95E3A00CB4EF7 /* SpringTextField.swift */,
-				BEC3EC291AE95E3A00CB4EF7 /* SpringTextView.swift */,
-				BEC3EC2A1AE95E3A00CB4EF7 /* SpringView.swift */,
-				BEC3EC2B1AE95E3A00CB4EF7 /* TransitionManager.swift */,
-				BEC3EC2C1AE95E3A00CB4EF7 /* TransitionZoom.swift */,
-				BEC3EC2D1AE95E3A00CB4EF7 /* UnwindSegue.swift */,
+				02D8C26A1AE9EA530000120B /* CoreData.framework */,
+				02D8C2641AE9E8640000120B /* Spring.framework */,
+				41ECB986BEE0B741392A8BD3 /* Pods_SoundTouch.framework */,
 			);
-			path = Spring;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,9 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEC3EBE41AE930EB00CB4EF7 /* Build configuration list for PBXNativeTarget "SoundTouch" */;
 			buildPhases = (
+				D864E59F9E684068E572FF83 /* Check Pods Manifest.lock */,
 				BEC3EBC11AE930EA00CB4EF7 /* Sources */,
 				BEC3EBC21AE930EA00CB4EF7 /* Frameworks */,
 				BEC3EBC31AE930EA00CB4EF7 /* Resources */,
+				6BD2150F72C570112C9DB72D /* Embed Pods Frameworks */,
+				F62186BBC300B793EB8200C2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -367,14 +336,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEC3EC531AE962E100CB4EF7 /* data.json in Resources */,
-				BEC3EC3A1AE95E3A00CB4EF7 /* Info.plist in Resources */,
 				BEC3EBFD1AE939E900CB4EF7 /* tb_instrusment.png in Resources */,
 				BEC3EBD51AE930EA00CB4EF7 /* LaunchScreen.xib in Resources */,
 				BEC3EC511AE962A800CB4EF7 /* cat.wav in Resources */,
 				BEC3EBD21AE930EA00CB4EF7 /* Images.xcassets in Resources */,
 				BEC3EC001AE93C7400CB4EF7 /* placeholder.png in Resources */,
+				02D8C2A51AE9F3620000120B /* Categorirs.json in Resources */,
 				BEC3EBFE1AE939E900CB4EF7 /* tb_vehicle.png in Resources */,
-				BEC3EC3D1AE95E3A00CB4EF7 /* LoadingView.xib in Resources */,
 				BEC3EC0D1AE9508A00CB4EF7 /* BaseViewController.xib in Resources */,
 				BEC3EBFC1AE939E900CB4EF7 /* tb_animal.png in Resources */,
 			);
@@ -389,40 +357,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6BD2150F72C570112C9DB72D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoundTouch/Pods-SoundTouch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D864E59F9E684068E572FF83 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F62186BBC300B793EB8200C2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoundTouch/Pods-SoundTouch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BEC3EBC11AE930EA00CB4EF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEC3EC341AE95E3A00CB4EF7 /* DesignableLabel.swift in Sources */,
-				BEC3EC431AE95E3A00CB4EF7 /* SpringImageView.swift in Sources */,
-				BEC3EC301AE95E3A00CB4EF7 /* AutoTextView.swift in Sources */,
-				BEC3EC391AE95E3A00CB4EF7 /* ImageLoader.swift in Sources */,
-				BEC3EC3E1AE95E3A00CB4EF7 /* Misc.swift in Sources */,
-				BEC3EC311AE95E3A00CB4EF7 /* BlurView.swift in Sources */,
-				BEC3EC4A1AE95E3A00CB4EF7 /* UnwindSegue.swift in Sources */,
-				BEC3EC3C1AE95E3A00CB4EF7 /* LoadingView.swift in Sources */,
-				BEC3EC451AE95E3A00CB4EF7 /* SpringTextField.swift in Sources */,
-				BEC3EC401AE95E3A00CB4EF7 /* Spring.swift in Sources */,
+				02D8C2A31AE9EF1D0000120B /* SoundTouch.xcdatamodeld in Sources */,
+				02D8C2B01AEA1D540000120B /* Categories.swift in Sources */,
 				BEC3EBCB1AE930EA00CB4EF7 /* AppDelegate.swift in Sources */,
-				BEC3EC3F1AE95E3A00CB4EF7 /* SoundPlayer.swift in Sources */,
-				BEC3EC381AE95E3A00CB4EF7 /* DesignableView.swift in Sources */,
-				BEC3EC351AE95E3A00CB4EF7 /* DesignableTabBarController.swift in Sources */,
-				BEC3EC321AE95E3A00CB4EF7 /* DesignableButton.swift in Sources */,
+				02D8C2691AE9EA310000120B /* DataManager.swift in Sources */,
+				02D8C2AC1AE9F5DF0000120B /* Model.swift in Sources */,
 				BEC3EC031AE93E5E00CB4EF7 /* CollectionViewCell.swift in Sources */,
-				BEC3EC491AE95E3A00CB4EF7 /* TransitionZoom.swift in Sources */,
-				BEC3EC361AE95E3A00CB4EF7 /* DesignableTextField.swift in Sources */,
-				BEC3EC481AE95E3A00CB4EF7 /* TransitionManager.swift in Sources */,
-				BEC3EC441AE95E3A00CB4EF7 /* SpringLabel.swift in Sources */,
-				BEC3EC2E1AE95E3A00CB4EF7 /* AsyncButton.swift in Sources */,
-				BEC3EC2F1AE95E3A00CB4EF7 /* AsyncImageView.swift in Sources */,
-				BEC3EC371AE95E3A00CB4EF7 /* DesignableTextView.swift in Sources */,
-				BEC3EC471AE95E3A00CB4EF7 /* SpringView.swift in Sources */,
-				BEC3EC461AE95E3A00CB4EF7 /* SpringTextView.swift in Sources */,
-				BEC3EC3B1AE95E3A00CB4EF7 /* KeyboardLayoutConstraint.swift in Sources */,
-				BEC3EC421AE95E3A00CB4EF7 /* SpringButton.swift in Sources */,
-				BEC3EC411AE95E3A00CB4EF7 /* SpringAnimation.swift in Sources */,
-				BEC3EC331AE95E3A00CB4EF7 /* DesignableImageView.swift in Sources */,
 				BEC3EC0C1AE9508A00CB4EF7 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -540,8 +533,13 @@
 		};
 		BEC3EBE51AE930EB00CB4EF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F22966C09BC382F959554EF /* Pods-SoundTouch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Pods-SoundTouch",
+				);
 				INFOPLIST_FILE = SoundTouch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -550,8 +548,13 @@
 		};
 		BEC3EBE61AE930EB00CB4EF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71ECFE381D553BEEC1DD0F3E /* Pods-SoundTouch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/Pods-SoundTouch",
+				);
 				INFOPLIST_FILE = SoundTouch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -623,6 +626,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		02D8C2A11AE9EF1D0000120B /* SoundTouch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				02D8C2A21AE9EF1D0000120B /* SoundTouch.xcdatamodel */,
+			);
+			currentVersion = 02D8C2A21AE9EF1D0000120B /* SoundTouch.xcdatamodel */;
+			path = SoundTouch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BEC3EBBD1AE930EA00CB4EF7 /* Project object */;
 }

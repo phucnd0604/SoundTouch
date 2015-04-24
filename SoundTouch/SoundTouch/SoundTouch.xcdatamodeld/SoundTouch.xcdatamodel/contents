@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14C109" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Categories" representedClassName="Categories" syncable="YES">
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <relationship name="models" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Model" inverseName="category" inverseEntity="Model" syncable="YES"/>
+    </entity>
+    <entity name="Model" representedClassName="Model" syncable="YES">
+        <attribute name="imageName" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="soundName" attributeType="String" syncable="YES"/>
+        <relationship name="category" maxCount="1" deletionRule="Nullify" destinationEntity="Categories" inverseName="models" inverseEntity="Categories" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Categories" positionX="-317" positionY="-60" width="128" height="73"/>
+        <element name="Model" positionX="-54" positionY="0" width="128" height="103"/>
+    </elements>
+</model>

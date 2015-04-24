@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0488A69110BDD5CB7BD024C6 /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AD4C5FFB491AA431C7C5BC /* SpringLabel.swift */; };
+		0F5178AD3389061AF99C3908 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5CD8559D282FCC6DA00829 /* KeyboardLayoutConstraint.swift */; };
+		0FA916DF25DF3BAD8C818757 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB36EE916949691E95F89E2F /* LoadingView.swift */; };
+		148C4F5CFE1E2B6831DBD690 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E242C2BDCB472632F5DC0E0B /* DesignableButton.swift */; };
+		1A3577919A90083AA1395589 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315A34017BF251DA8647AF26 /* Spring.swift */; };
+		21440EF410CFE1D3959170CA /* Pods-SoundTouch-Spring-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B24643DF151FE3C688E3EA /* Pods-SoundTouch-Spring-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		296A2D9A1B41634A1D71801C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5CCE3CF456ADD79E5F41C5 /* Foundation.framework */; };
+		2F8C6C5B032D9F99764F5B86 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8E587B3C26C127E2AC26E5 /* TransitionZoom.swift */; };
+		4543F7B313192EB72BE939EF /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F6EEEA6619C14DA74CFF8F /* SpringImageView.swift */; };
+		4C6FBA3118012BC71059208B /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE4B40B013BD2666FF9487E /* SpringTextView.swift */; };
+		58BA7A0C2F5CFEA2C8E30514 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6382D82EEFE73B9947486640 /* ImageLoader.swift */; };
+		5E8CDB40C5DF30C4FFE974AE /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 685869CB5ECA3AB4AFE88661 /* LoadingView.xib */; };
+		61D8E76E7FDB57F1BEE3E54B /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41D7DFC06826D44464D5FBFB /* SoundPlayer.swift */; };
+		690C2F220EB368A329A1DE55 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = E37DBF2A5BDA280558EC5C4C /* UnwindSegue.swift */; };
+		6CC900C6B6829782537D5EAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5CCE3CF456ADD79E5F41C5 /* Foundation.framework */; };
+		7D56611551720AAAE54A5032 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1955F4BE7E583AE0A578C7BF /* DesignableView.swift */; };
+		7D87C5225F14A429737D297F /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0466A546D10EA3064920560 /* Misc.swift */; };
+		8501752D168F135ABCC1DBF0 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE637F7EBBEB1973544A5440 /* AutoTextView.swift */; };
+		882C47DB9A20E9D61D2C60C8 /* Pods-SoundTouch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD464879A0CDAD07EC69BD9D /* Pods-SoundTouch-dummy.m */; };
+		8B64E76EDEB1F808724D65A8 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DEABA43E8E823D4C8BFD33 /* DesignableTextView.swift */; };
+		92692807B1D4847A3DDB91EB /* Pods-SoundTouch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC75E3BF36281658D81EBB54 /* Pods-SoundTouch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1323C5C64363EF3A63F82D9 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C9F16BE31255E87BC9F402 /* TransitionManager.swift */; };
+		A4B1758D86DDB4554BC9DDDE /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BD7AF4DC51C97C2412E00D /* SpringView.swift */; };
+		A674693716B2EBFC9E5B942E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13DFBC4B865F25E8C3C63BF6 /* Images.xcassets */; };
+		ACE0791BB72DDB07A3981C5A /* Pods-SoundTouch-Spring-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2874644536A45F4F6481981C /* Pods-SoundTouch-Spring-dummy.m */; };
+		B273B3DA3AEF97A09335E78D /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1586839F0CEF76773ADFDD48 /* AsyncImageView.swift */; };
+		CB9BD2E49F79EEE6945B8D87 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6075CE00A28446BA5364D48E /* BlurView.swift */; };
+		D804DFCC907A50D3F723B73B /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C32E28835D2EE464AEB837A /* SpringTextField.swift */; };
+		DBB5B79717A45073845E02AB /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00FEE300F26688F48A63F3D /* SpringAnimation.swift */; };
+		E7B6E3B0ECF08DB972AACBE0 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B39BFB0834FD9A62CDDD6D8 /* DesignableTextField.swift */; };
+		E8F15AD98C2BE8FB9D30577C /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4962C90F1C77D1848207613D /* AsyncButton.swift */; };
+		EA5382F76C66313D783DEEEE /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A1F38D5CAFAE7B940E6B53 /* DesignableImageView.swift */; };
+		EBBB5A13E231AD3D45190E9D /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775135A3DAADE95E5C09C40C /* SpringButton.swift */; };
+		FCB6E41E843C81FB9F2D4AD5 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571B6F2127016BFE975D20CC /* DesignableLabel.swift */; };
+		FEB43D31A35D7BA3A5094199 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C544EDAFE8C42FEF320EBA0 /* DesignableTabBarController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EEF4DEC56BFCFAC59AE79FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA4DC11B66E5865125916F45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AC7C9C0A1B7B110B75A8697;
+			remoteInfo = "Pods-SoundTouch-Spring";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05C9F16BE31255E87BC9F402 /* TransitionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionManager.swift; path = Spring/TransitionManager.swift; sourceTree = "<group>"; };
+		13DFBC4B865F25E8C3C63BF6 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SpringApp/Images.xcassets; sourceTree = "<group>"; };
+		1586839F0CEF76773ADFDD48 /* AsyncImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncImageView.swift; path = Spring/AsyncImageView.swift; sourceTree = "<group>"; };
+		15A1F38D5CAFAE7B940E6B53 /* DesignableImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableImageView.swift; path = Spring/DesignableImageView.swift; sourceTree = "<group>"; };
+		16AD4C5FFB491AA431C7C5BC /* SpringLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringLabel.swift; path = Spring/SpringLabel.swift; sourceTree = "<group>"; };
+		1955F4BE7E583AE0A578C7BF /* DesignableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableView.swift; path = Spring/DesignableView.swift; sourceTree = "<group>"; };
+		1C32E28835D2EE464AEB837A /* SpringTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextField.swift; path = Spring/SpringTextField.swift; sourceTree = "<group>"; };
+		1F52FF7B75D64A3AE85687E9 /* Pods-SoundTouch-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SoundTouch-environment.h"; sourceTree = "<group>"; };
+		2874644536A45F4F6481981C /* Pods-SoundTouch-Spring-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SoundTouch-Spring-dummy.m"; sourceTree = "<group>"; };
+		2E5CCE3CF456ADD79E5F41C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		315A34017BF251DA8647AF26 /* Spring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Spring.swift; path = Spring/Spring.swift; sourceTree = "<group>"; };
+		359E32968CF48E89B8BAF262 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		36CE4CEA0CDBEB5F3511AAEA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C544EDAFE8C42FEF320EBA0 /* DesignableTabBarController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTabBarController.swift; path = Spring/DesignableTabBarController.swift; sourceTree = "<group>"; };
+		416E7EA27DED5517F7D03BB6 /* Pods-SoundTouch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundTouch.debug.xcconfig"; sourceTree = "<group>"; };
+		41D7DFC06826D44464D5FBFB /* SoundPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SoundPlayer.swift; path = Spring/SoundPlayer.swift; sourceTree = "<group>"; };
+		4962C90F1C77D1848207613D /* AsyncButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AsyncButton.swift; path = Spring/AsyncButton.swift; sourceTree = "<group>"; };
+		4E5CD8559D282FCC6DA00829 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardLayoutConstraint.swift; path = Spring/KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		50DEABA43E8E823D4C8BFD33 /* DesignableTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextView.swift; path = Spring/DesignableTextView.swift; sourceTree = "<group>"; };
+		51B24643DF151FE3C688E3EA /* Pods-SoundTouch-Spring-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SoundTouch-Spring-umbrella.h"; sourceTree = "<group>"; };
+		571B6F2127016BFE975D20CC /* DesignableLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableLabel.swift; path = Spring/DesignableLabel.swift; sourceTree = "<group>"; };
+		5DFD2C2E2B859B0144AF646D /* Spring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Spring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7414A5F56E5B48D96B0885 /* Pods-SoundTouch-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoundTouch-resources.sh"; sourceTree = "<group>"; };
+		5FBE08B7DDCDFEBB8AB6423B /* Pods-SoundTouch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SoundTouch-acknowledgements.plist"; sourceTree = "<group>"; };
+		6075CE00A28446BA5364D48E /* BlurView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlurView.swift; path = Spring/BlurView.swift; sourceTree = "<group>"; };
+		6382D82EEFE73B9947486640 /* ImageLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageLoader.swift; path = Spring/ImageLoader.swift; sourceTree = "<group>"; };
+		685869CB5ECA3AB4AFE88661 /* LoadingView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = LoadingView.xib; path = Spring/LoadingView.xib; sourceTree = "<group>"; };
+		68F6EEEA6619C14DA74CFF8F /* SpringImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringImageView.swift; path = Spring/SpringImageView.swift; sourceTree = "<group>"; };
+		6AC43CCEEA746589A84BBAB9 /* Pods-SoundTouch-Spring-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SoundTouch-Spring-prefix.pch"; sourceTree = "<group>"; };
+		75D05382EF6CB14DE250B4FD /* Pods-SoundTouch-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SoundTouch-frameworks.sh"; sourceTree = "<group>"; };
+		775135A3DAADE95E5C09C40C /* SpringButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringButton.swift; path = Spring/SpringButton.swift; sourceTree = "<group>"; };
+		89BD7AF4DC51C97C2412E00D /* SpringView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringView.swift; path = Spring/SpringView.swift; sourceTree = "<group>"; };
+		8B39BFB0834FD9A62CDDD6D8 /* DesignableTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableTextField.swift; path = Spring/DesignableTextField.swift; sourceTree = "<group>"; };
+		9DE4B40B013BD2666FF9487E /* SpringTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringTextView.swift; path = Spring/SpringTextView.swift; sourceTree = "<group>"; };
+		A3C807CCE1DB1407D48B4E88 /* Pods-SoundTouch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SoundTouch.modulemap"; sourceTree = "<group>"; };
+		ACBB731E78E53EA2570D95E2 /* Pods-SoundTouch-Spring-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundTouch-Spring-Private.xcconfig"; sourceTree = "<group>"; };
+		B784CFFF3D8BFE5AA51A513E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA9C24313F25364267599D38 /* Pods-SoundTouch-Spring.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SoundTouch-Spring.modulemap"; sourceTree = "<group>"; };
+		BB36EE916949691E95F89E2F /* LoadingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingView.swift; path = Spring/LoadingView.swift; sourceTree = "<group>"; };
+		BC75E3BF36281658D81EBB54 /* Pods-SoundTouch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SoundTouch-umbrella.h"; sourceTree = "<group>"; };
+		CEBD0F736B9A4528F40B04F6 /* Pods_SoundTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoundTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0466A546D10EA3064920560 /* Misc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Misc.swift; path = Spring/Misc.swift; sourceTree = "<group>"; };
+		DB8E587B3C26C127E2AC26E5 /* TransitionZoom.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionZoom.swift; path = Spring/TransitionZoom.swift; sourceTree = "<group>"; };
+		DE083373B6777F387DB2DB7E /* Pods-SoundTouch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SoundTouch-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DE637F7EBBEB1973544A5440 /* AutoTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoTextView.swift; path = Spring/AutoTextView.swift; sourceTree = "<group>"; };
+		E00FEE300F26688F48A63F3D /* SpringAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringAnimation.swift; path = Spring/SpringAnimation.swift; sourceTree = "<group>"; };
+		E242C2BDCB472632F5DC0E0B /* DesignableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DesignableButton.swift; path = Spring/DesignableButton.swift; sourceTree = "<group>"; };
+		E37DBF2A5BDA280558EC5C4C /* UnwindSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnwindSegue.swift; path = Spring/UnwindSegue.swift; sourceTree = "<group>"; };
+		E5621842229884AFE6502966 /* Pods-SoundTouch-Spring.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundTouch-Spring.xcconfig"; sourceTree = "<group>"; };
+		F6C8B0C831437FFAE087B308 /* Pods-SoundTouch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SoundTouch.release.xcconfig"; sourceTree = "<group>"; };
+		FD464879A0CDAD07EC69BD9D /* Pods-SoundTouch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SoundTouch-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E65713B99C8385DA1A200DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CC900C6B6829782537D5EAB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C25910DB1274CF5D0F5E1C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				296A2D9A1B41634A1D71801C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26E93DE107CA16FFA067F267 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C04D7F3411B95A20623B285 /* Spring */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		350012597807F6529988CD09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A52E5A405905C2E2314644B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A52E5A405905C2E2314644B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2E5CCE3CF456ADD79E5F41C5 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A28BE661DAF156483D52A28 = {
+			isa = PBXGroup;
+			children = (
+				359E32968CF48E89B8BAF262 /* Podfile */,
+				350012597807F6529988CD09 /* Frameworks */,
+				26E93DE107CA16FFA067F267 /* Pods */,
+				C354FE5354143169D4616FAE /* Products */,
+				8B133062826086ED4A49ACAC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		5C04D7F3411B95A20623B285 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				4962C90F1C77D1848207613D /* AsyncButton.swift */,
+				1586839F0CEF76773ADFDD48 /* AsyncImageView.swift */,
+				DE637F7EBBEB1973544A5440 /* AutoTextView.swift */,
+				6075CE00A28446BA5364D48E /* BlurView.swift */,
+				E242C2BDCB472632F5DC0E0B /* DesignableButton.swift */,
+				15A1F38D5CAFAE7B940E6B53 /* DesignableImageView.swift */,
+				571B6F2127016BFE975D20CC /* DesignableLabel.swift */,
+				3C544EDAFE8C42FEF320EBA0 /* DesignableTabBarController.swift */,
+				8B39BFB0834FD9A62CDDD6D8 /* DesignableTextField.swift */,
+				50DEABA43E8E823D4C8BFD33 /* DesignableTextView.swift */,
+				1955F4BE7E583AE0A578C7BF /* DesignableView.swift */,
+				6382D82EEFE73B9947486640 /* ImageLoader.swift */,
+				4E5CD8559D282FCC6DA00829 /* KeyboardLayoutConstraint.swift */,
+				BB36EE916949691E95F89E2F /* LoadingView.swift */,
+				D0466A546D10EA3064920560 /* Misc.swift */,
+				41D7DFC06826D44464D5FBFB /* SoundPlayer.swift */,
+				315A34017BF251DA8647AF26 /* Spring.swift */,
+				E00FEE300F26688F48A63F3D /* SpringAnimation.swift */,
+				775135A3DAADE95E5C09C40C /* SpringButton.swift */,
+				68F6EEEA6619C14DA74CFF8F /* SpringImageView.swift */,
+				16AD4C5FFB491AA431C7C5BC /* SpringLabel.swift */,
+				1C32E28835D2EE464AEB837A /* SpringTextField.swift */,
+				9DE4B40B013BD2666FF9487E /* SpringTextView.swift */,
+				89BD7AF4DC51C97C2412E00D /* SpringView.swift */,
+				05C9F16BE31255E87BC9F402 /* TransitionManager.swift */,
+				DB8E587B3C26C127E2AC26E5 /* TransitionZoom.swift */,
+				E37DBF2A5BDA280558EC5C4C /* UnwindSegue.swift */,
+				888223BB248B83324AFAD222 /* Resources */,
+				ADAC5E787905AB301019CBF6 /* Support Files */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		888223BB248B83324AFAD222 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				13DFBC4B865F25E8C3C63BF6 /* Images.xcassets */,
+				685869CB5ECA3AB4AFE88661 /* LoadingView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8B133062826086ED4A49ACAC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F789A113642D728E37ABDEFB /* Pods-SoundTouch */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ADAC5E787905AB301019CBF6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B784CFFF3D8BFE5AA51A513E /* Info.plist */,
+				BA9C24313F25364267599D38 /* Pods-SoundTouch-Spring.modulemap */,
+				E5621842229884AFE6502966 /* Pods-SoundTouch-Spring.xcconfig */,
+				ACBB731E78E53EA2570D95E2 /* Pods-SoundTouch-Spring-Private.xcconfig */,
+				2874644536A45F4F6481981C /* Pods-SoundTouch-Spring-dummy.m */,
+				6AC43CCEEA746589A84BBAB9 /* Pods-SoundTouch-Spring-prefix.pch */,
+				51B24643DF151FE3C688E3EA /* Pods-SoundTouch-Spring-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-SoundTouch-Spring";
+			sourceTree = "<group>";
+		};
+		C354FE5354143169D4616FAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEBD0F736B9A4528F40B04F6 /* Pods_SoundTouch.framework */,
+				5DFD2C2E2B859B0144AF646D /* Spring.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F789A113642D728E37ABDEFB /* Pods-SoundTouch */ = {
+			isa = PBXGroup;
+			children = (
+				36CE4CEA0CDBEB5F3511AAEA /* Info.plist */,
+				A3C807CCE1DB1407D48B4E88 /* Pods-SoundTouch.modulemap */,
+				DE083373B6777F387DB2DB7E /* Pods-SoundTouch-acknowledgements.markdown */,
+				5FBE08B7DDCDFEBB8AB6423B /* Pods-SoundTouch-acknowledgements.plist */,
+				FD464879A0CDAD07EC69BD9D /* Pods-SoundTouch-dummy.m */,
+				1F52FF7B75D64A3AE85687E9 /* Pods-SoundTouch-environment.h */,
+				75D05382EF6CB14DE250B4FD /* Pods-SoundTouch-frameworks.sh */,
+				5E7414A5F56E5B48D96B0885 /* Pods-SoundTouch-resources.sh */,
+				BC75E3BF36281658D81EBB54 /* Pods-SoundTouch-umbrella.h */,
+				416E7EA27DED5517F7D03BB6 /* Pods-SoundTouch.debug.xcconfig */,
+				F6C8B0C831437FFAE087B308 /* Pods-SoundTouch.release.xcconfig */,
+			);
+			name = "Pods-SoundTouch";
+			path = "Target Support Files/Pods-SoundTouch";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1765364C7C6060759B79CF7C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92692807B1D4847A3DDB91EB /* Pods-SoundTouch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		946C5B65CF8D12D1CBFFD09B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21440EF410CFE1D3959170CA /* Pods-SoundTouch-Spring-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1AC7C9C0A1B7B110B75A8697 /* Pods-SoundTouch-Spring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84157A91330C948977E934E4 /* Build configuration list for PBXNativeTarget "Pods-SoundTouch-Spring" */;
+			buildPhases = (
+				5BE5238F921E9BE19B7440EA /* Sources */,
+				0E65713B99C8385DA1A200DE /* Frameworks */,
+				FDE7B11F94DF0BDAF56E6F2D /* Resources */,
+				946C5B65CF8D12D1CBFFD09B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SoundTouch-Spring";
+			productName = "Pods-SoundTouch-Spring";
+			productReference = 5DFD2C2E2B859B0144AF646D /* Spring.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		51E90472BF062527DC2AED2F /* Pods-SoundTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B354D1FE9F035C4BF95A06E /* Build configuration list for PBXNativeTarget "Pods-SoundTouch" */;
+			buildPhases = (
+				B7123067CF1B261EBE0C52F3 /* Sources */,
+				8C25910DB1274CF5D0F5E1C8 /* Frameworks */,
+				1765364C7C6060759B79CF7C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				205C0188E4F35CBE19B2F5FE /* PBXTargetDependency */,
+			);
+			name = "Pods-SoundTouch";
+			productName = "Pods-SoundTouch";
+			productReference = CEBD0F736B9A4528F40B04F6 /* Pods_SoundTouch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA4DC11B66E5865125916F45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = A3B7D42E6B9BF2EF81A35C91 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5A28BE661DAF156483D52A28;
+			productRefGroup = C354FE5354143169D4616FAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51E90472BF062527DC2AED2F /* Pods-SoundTouch */,
+				1AC7C9C0A1B7B110B75A8697 /* Pods-SoundTouch-Spring */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDE7B11F94DF0BDAF56E6F2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A674693716B2EBFC9E5B942E /* Images.xcassets in Resources */,
+				5E8CDB40C5DF30C4FFE974AE /* LoadingView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BE5238F921E9BE19B7440EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F15AD98C2BE8FB9D30577C /* AsyncButton.swift in Sources */,
+				B273B3DA3AEF97A09335E78D /* AsyncImageView.swift in Sources */,
+				8501752D168F135ABCC1DBF0 /* AutoTextView.swift in Sources */,
+				CB9BD2E49F79EEE6945B8D87 /* BlurView.swift in Sources */,
+				148C4F5CFE1E2B6831DBD690 /* DesignableButton.swift in Sources */,
+				EA5382F76C66313D783DEEEE /* DesignableImageView.swift in Sources */,
+				FCB6E41E843C81FB9F2D4AD5 /* DesignableLabel.swift in Sources */,
+				FEB43D31A35D7BA3A5094199 /* DesignableTabBarController.swift in Sources */,
+				E7B6E3B0ECF08DB972AACBE0 /* DesignableTextField.swift in Sources */,
+				8B64E76EDEB1F808724D65A8 /* DesignableTextView.swift in Sources */,
+				7D56611551720AAAE54A5032 /* DesignableView.swift in Sources */,
+				58BA7A0C2F5CFEA2C8E30514 /* ImageLoader.swift in Sources */,
+				0F5178AD3389061AF99C3908 /* KeyboardLayoutConstraint.swift in Sources */,
+				0FA916DF25DF3BAD8C818757 /* LoadingView.swift in Sources */,
+				7D87C5225F14A429737D297F /* Misc.swift in Sources */,
+				ACE0791BB72DDB07A3981C5A /* Pods-SoundTouch-Spring-dummy.m in Sources */,
+				61D8E76E7FDB57F1BEE3E54B /* SoundPlayer.swift in Sources */,
+				1A3577919A90083AA1395589 /* Spring.swift in Sources */,
+				DBB5B79717A45073845E02AB /* SpringAnimation.swift in Sources */,
+				EBBB5A13E231AD3D45190E9D /* SpringButton.swift in Sources */,
+				4543F7B313192EB72BE939EF /* SpringImageView.swift in Sources */,
+				0488A69110BDD5CB7BD024C6 /* SpringLabel.swift in Sources */,
+				D804DFCC907A50D3F723B73B /* SpringTextField.swift in Sources */,
+				4C6FBA3118012BC71059208B /* SpringTextView.swift in Sources */,
+				A4B1758D86DDB4554BC9DDDE /* SpringView.swift in Sources */,
+				A1323C5C64363EF3A63F82D9 /* TransitionManager.swift in Sources */,
+				2F8C6C5B032D9F99764F5B86 /* TransitionZoom.swift in Sources */,
+				690C2F220EB368A329A1DE55 /* UnwindSegue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7123067CF1B261EBE0C52F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				882C47DB9A20E9D61D2C60C8 /* Pods-SoundTouch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		205C0188E4F35CBE19B2F5FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SoundTouch-Spring";
+			target = 1AC7C9C0A1B7B110B75A8697 /* Pods-SoundTouch-Spring */;
+			targetProxy = 9EEF4DEC56BFCFAC59AE79FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CDE18E51FE1F17A1084382E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		329E3B98737FB203D745EB29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACBB731E78E53EA2570D95E2 /* Pods-SoundTouch-Spring-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SoundTouch-Spring/Pods-SoundTouch-Spring-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-SoundTouch-Spring/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SoundTouch-Spring/Pods-SoundTouch-Spring.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Spring;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4563D51106F199A2E4CFF3C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		68E2FC044C82514CF8B209A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6C8B0C831437FFAE087B308 /* Pods-SoundTouch.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SoundTouch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SoundTouch/Pods-SoundTouch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SoundTouch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E8FB4D4B3CB6FDEDAF6D8B56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACBB731E78E53EA2570D95E2 /* Pods-SoundTouch-Spring-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SoundTouch-Spring/Pods-SoundTouch-Spring-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-SoundTouch-Spring/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SoundTouch-Spring/Pods-SoundTouch-Spring.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Spring;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F1AA8ACB2E748E3F7326C613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 416E7EA27DED5517F7D03BB6 /* Pods-SoundTouch.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SoundTouch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SoundTouch/Pods-SoundTouch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SoundTouch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84157A91330C948977E934E4 /* Build configuration list for PBXNativeTarget "Pods-SoundTouch-Spring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8FB4D4B3CB6FDEDAF6D8B56 /* Debug */,
+				329E3B98737FB203D745EB29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B354D1FE9F035C4BF95A06E /* Build configuration list for PBXNativeTarget "Pods-SoundTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1AA8ACB2E748E3F7326C613 /* Debug */,
+				68E2FC044C82514CF8B209A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3B7D42E6B9BF2EF81A35C91 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4563D51106F199A2E4CFF3C1 /* Debug */,
+				1CDE18E51FE1F17A1084382E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA4DC11B66E5865125916F45 /* Project object */;
+}

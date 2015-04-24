@@ -11,6 +11,7 @@ import UIKit
 class CollectionViewCell: UICollectionViewCell {
     
     var imageView: UIImageView!
+    var label: UILabel!
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupCell()
@@ -23,9 +24,14 @@ class CollectionViewCell: UICollectionViewCell {
     
     func setupCell() {
         imageView = UIImageView(frame: bounds)
-        imageView.image = UIImage(named: "placeholder.png")
         imageView.contentMode = UIViewContentMode.ScaleAspectFill
         imageView.clipsToBounds = true
         addSubview(imageView)
+        label = UILabel(frame: CGRect(x: 0, y: frame.height - 30, width: frame.width, height: 30))
+        label.textAlignment = NSTextAlignment.Center
+        addSubview(label)
+    }
+    override func prepareForReuse() {
+        imageView.image = nil
     }
 }

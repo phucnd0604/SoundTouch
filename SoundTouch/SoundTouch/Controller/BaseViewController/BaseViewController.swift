@@ -7,52 +7,72 @@
 //
 
 import UIKit
-
+enum BaseVCTab: Int {
+    case unknown
+    case animal
+    case instrusment
+    case vehicle
+}
 class BaseViewController: UIViewController {
 
+    let categories = Categories.getAllCategory()
+    var baseVCTab = BaseVCTab.unknown
+    var dataSouce: Array<Model>?
     @IBOutlet weak var collectionView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         collectionView.registerClass(CollectionViewCell.self, forCellWithReuseIdentifier: "Cell")
+        getData()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func getData() {
+        switch baseVCTab {
+        case .animal:
+            let category = Categories.getCategoryByName("animal")
+            dataSouce = Model.getModelByCategory(category)
+            break
+        case .instrusment:
+            break
+        case .vehicle:
+            break
+        case .unknown:
+            break
+        }
+        collectionView.reloadData()
     }
-    */
-
 }
 
+// MARK: - UICollectionViewDataSource
 extension BaseViewController: UICollectionViewDataSource {
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 20
+        if dataSouce?.count > 0 {
+            return dataSouce!.count
+        } else {
+            return 0
+        }
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath) as! CollectionViewCell
+        let model = dataSouce![indexPath.row]
+        cell.imageView.image = UIImage(named: model.imageName)
+        cell.label.text = model.name
         return cell
     }
 }
-
+// MARK: - UICollectionViewDelegate
 extension BaseViewController: UICollectionViewDelegate {
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         soundPlayer.playSound("cat.wav")
     }
 }
-
+// MARK: - UICollectionViewDelegate
 extension BaseViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
         let width = (view.frame.width - 30) / 2

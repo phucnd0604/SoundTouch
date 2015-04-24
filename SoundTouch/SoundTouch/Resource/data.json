@@ -1,59 +1,71 @@
 {
-    "feed": [
-        {
-            "category": "",
-            "imageName": "forkingdog",
-            "soundName": "sound"         
-        },
-		{
-            "category": "",
-            "imageName": "forkingdog",
-            "soundName": "sound"         
-        },
-        {
-            "category": "",
-            "imageName": "forkingdog",
-            "soundName": "sound"         
-        },
-        {
-            "category": "",
-            "imageName": "forkingdog",
-            "soundName": "sound"         
-        },
-        {
-            "category": "",
-            "imageName": "forkingdog",
-            "soundName": "sound"         
-        },
-        {
-            "category": "",
-            "imageName": "forkingdog",
-            "soundName": "sound"         
-        },
-        {
-            "category": "",
-            "imageName": "forkingdog",
-            "soundName": "sound"         
-        },
-        {
-            "category": "",
-            "imageName": "forkingdog",
-            "soundName": "sound"         
-        },
-        {
-            "category": "",
-            "imageName": "forkingdog",
-            "soundName": "sound"         
-        },
-        {
-            "category": "",
-            "imageName": "forkingdog",
-            "soundName": "sound"         
-        },
-        {
-            "category": "",
-            "imageName": "forkingdog",
-            "soundName": "sound"         
-        },
-    ]
+  "data": [
+           {
+           "category": "animal",
+           "imageName": "placeholder.png",
+           "soundName": "sound",
+           "name": "Cat1"
+           },
+           {
+           "category": "animal",
+           "imageName": "placeholder.png",
+           "soundName": "sound",
+           "name": "Cat2"
+           },
+           {
+           "category": "animal",
+           "imageName": "placeholder.png",
+           "soundName": "sound" ,
+           "name": "Cat3"
+           },
+           {
+           "category": "animal",
+           "imageName": "placeholder.png",
+           "soundName": "sound"  ,
+           "name": "Cat4"
+           },
+           {
+           "category": "vehicle",
+           "imageName": "placeholder.png",
+           "soundName": "sound"  ,
+           "name": "Cat5"
+           
+           },
+           {
+           "category": "animal",
+           "imageName": "placeholder.png",
+           "soundName": "sound"   ,
+           "name": "Cat6"
+           },
+           {
+           "category": "animal",
+           "imageName": "placeholder.png",
+           "soundName": "sound",
+           "name": "Cat7"
+           },
+           {
+           "category": "animal",
+           "imageName": "placeholder.png",
+           "soundName": "sound"  ,
+           "name": "Cat8"
+           },
+           {
+           "category": "vehicle",
+           "imageName": "placeholder.png",
+           "soundName": "sound"  ,
+           "name": "Cat9"
+           },
+           {
+           "category": "animal",
+           "imageName": "placeholder.png",
+           "soundName": "sound" ,
+           "name": "Cat10"
+           },
+           {
+           "category": "vehicle",
+           "imageName": "placeholder.png",
+           "soundName": "sound" ,
+           "name": "Cat11"
+           },
+           ]
 }

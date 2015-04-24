@@ -1,0 +1,6 @@
+framework module Pods_SoundTouch {
+  umbrella header "Pods-SoundTouch-umbrella.h"
+
+  export *
+  module * { export * }
+}
