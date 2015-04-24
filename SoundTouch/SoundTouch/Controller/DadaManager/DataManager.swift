@@ -106,7 +106,7 @@ class DataManager {
         var count = 0
         let context = DataManager.shareInstance.mainObjectContext
         if models.count <= 0  {
-            return (false,nil)
+            return (false,NSError(domain: "Error insert 0 object", code: 9191, userInfo: nil))
         } else {
             for aName in models {
                 let dict = aName as! NSDictionary
