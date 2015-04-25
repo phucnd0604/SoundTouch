@@ -14,6 +14,18 @@
 		02D8C2A51AE9F3620000120B /* Categorirs.json in Resources */ = {isa = PBXBuildFile; fileRef = 02D8C2A41AE9F3620000120B /* Categorirs.json */; };
 		02D8C2AC1AE9F5DF0000120B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D8C2AB1AE9F5DF0000120B /* Model.swift */; };
 		02D8C2B01AEA1D540000120B /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D8C2AF1AEA1D540000120B /* Categories.swift */; };
+		BE1338A41AEBDB020072DC9C /* animal_cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE13389A1AEBDB020072DC9C /* animal_cat.jpg */; };
+		BE1338A51AEBDB020072DC9C /* animal_chicken.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE13389B1AEBDB020072DC9C /* animal_chicken.jpg */; };
+		BE1338A61AEBDB020072DC9C /* animal_dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE13389C1AEBDB020072DC9C /* animal_dog.jpg */; };
+		BE1338A71AEBDB020072DC9C /* animal_tiger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE13389D1AEBDB020072DC9C /* animal_tiger.jpg */; };
+		BE1338A81AEBDB020072DC9C /* vehicle_maybay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE13389E1AEBDB020072DC9C /* vehicle_maybay.jpg */; };
+		BE1338A91AEBDB020072DC9C /* vehicle_oto.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BE13389F1AEBDB020072DC9C /* vehicle_oto.jpeg */; };
+		BE1338AA1AEBDB020072DC9C /* vehicle_tauhoa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE1338A01AEBDB020072DC9C /* vehicle_tauhoa.jpg */; };
+		BE1338AB1AEBDB020072DC9C /* vehicle_taxi.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BE1338A11AEBDB020072DC9C /* vehicle_taxi.jpeg */; };
+		BE1338AC1AEBDB020072DC9C /* vehicle_xedap.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BE1338A21AEBDB020072DC9C /* vehicle_xedap.jpeg */; };
+		BE1338AD1AEBDB020072DC9C /* vehicle_xemay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE1338A31AEBDB020072DC9C /* vehicle_xemay.jpg */; };
+		BEA6CEBC1AEB8AEA00958BA5 /* db.json in Resources */ = {isa = PBXBuildFile; fileRef = BEA6CEBB1AEB8AEA00958BA5 /* db.json */; };
+		BEA6CEBF1AEB8BFC00958BA5 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA6CEBE1AEB8BFC00958BA5 /* SwiftyJSON.swift */; };
 		BEC3EBCB1AE930EA00CB4EF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EBCA1AE930EA00CB4EF7 /* AppDelegate.swift */; };
 		BEC3EBD21AE930EA00CB4EF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC3EBD11AE930EA00CB4EF7 /* Images.xcassets */; };
 		BEC3EBD51AE930EA00CB4EF7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BEC3EBD31AE930EA00CB4EF7 /* LaunchScreen.xib */; };
@@ -51,6 +63,18 @@
 		2F22966C09BC382F959554EF /* Pods-SoundTouch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundTouch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoundTouch/Pods-SoundTouch.debug.xcconfig"; sourceTree = "<group>"; };
 		41ECB986BEE0B741392A8BD3 /* Pods_SoundTouch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoundTouch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71ECFE381D553BEEC1DD0F3E /* Pods-SoundTouch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundTouch.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoundTouch/Pods-SoundTouch.release.xcconfig"; sourceTree = "<group>"; };
+		BE13389A1AEBDB020072DC9C /* animal_cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = animal_cat.jpg; sourceTree = "<group>"; };
+		BE13389B1AEBDB020072DC9C /* animal_chicken.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = animal_chicken.jpg; sourceTree = "<group>"; };
+		BE13389C1AEBDB020072DC9C /* animal_dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = animal_dog.jpg; sourceTree = "<group>"; };
+		BE13389D1AEBDB020072DC9C /* animal_tiger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = animal_tiger.jpg; sourceTree = "<group>"; };
+		BE13389E1AEBDB020072DC9C /* vehicle_maybay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vehicle_maybay.jpg; sourceTree = "<group>"; };
+		BE13389F1AEBDB020072DC9C /* vehicle_oto.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vehicle_oto.jpeg; sourceTree = "<group>"; };
+		BE1338A01AEBDB020072DC9C /* vehicle_tauhoa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vehicle_tauhoa.jpg; sourceTree = "<group>"; };
+		BE1338A11AEBDB020072DC9C /* vehicle_taxi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vehicle_taxi.jpeg; sourceTree = "<group>"; };
+		BE1338A21AEBDB020072DC9C /* vehicle_xedap.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vehicle_xedap.jpeg; sourceTree = "<group>"; };
+		BE1338A31AEBDB020072DC9C /* vehicle_xemay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vehicle_xemay.jpg; sourceTree = "<group>"; };
+		BEA6CEBB1AEB8AEA00958BA5 /* db.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = db.json; sourceTree = "<group>"; };
+		BEA6CEBE1AEB8BFC00958BA5 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		BEC3EBC51AE930EA00CB4EF7 /* SoundTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC3EBC91AE930EA00CB4EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEC3EBCA1AE930EA00CB4EF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +141,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BEA6CEBD1AEB8BF100958BA5 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				BEA6CEBE1AEB8BFC00958BA5 /* SwiftyJSON.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
 		BEC3EBBC1AE930EA00CB4EF7 = {
 			isa = PBXGroup;
 			children = (
@@ -140,7 +172,7 @@
 		BEC3EBC71AE930EA00CB4EF7 /* SoundTouch */ = {
 			isa = PBXGroup;
 			children = (
-				BEC3EC0E1AE95E3A00CB4EF7 /* Library */,
+				BEA6CEBD1AEB8BF100958BA5 /* Library */,
 				02D8C2A61AE9F59B0000120B /* Model */,
 				BEC3EBEA1AE9333A00CB4EF7 /* Controller */,
 				BEC3EBF01AE935A200CB4EF7 /* Resource */,
@@ -204,6 +236,7 @@
 				BEC3EBF11AE935A200CB4EF7 /* Image */,
 				BEC3EC521AE962E100CB4EF7 /* data.json */,
 				02D8C2A41AE9F3620000120B /* Categorirs.json */,
+				BEA6CEBB1AEB8AEA00958BA5 /* db.json */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -211,6 +244,16 @@
 		BEC3EBF11AE935A200CB4EF7 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				BE13389A1AEBDB020072DC9C /* animal_cat.jpg */,
+				BE13389B1AEBDB020072DC9C /* animal_chicken.jpg */,
+				BE13389C1AEBDB020072DC9C /* animal_dog.jpg */,
+				BE13389D1AEBDB020072DC9C /* animal_tiger.jpg */,
+				BE13389E1AEBDB020072DC9C /* vehicle_maybay.jpg */,
+				BE13389F1AEBDB020072DC9C /* vehicle_oto.jpeg */,
+				BE1338A01AEBDB020072DC9C /* vehicle_tauhoa.jpg */,
+				BE1338A11AEBDB020072DC9C /* vehicle_taxi.jpeg */,
+				BE1338A21AEBDB020072DC9C /* vehicle_xedap.jpeg */,
+				BE1338A31AEBDB020072DC9C /* vehicle_xemay.jpg */,
 				BEC3EBFF1AE93C7400CB4EF7 /* placeholder.png */,
 				BEC3EBF91AE939E900CB4EF7 /* tb_animal.png */,
 				BEC3EBFA1AE939E900CB4EF7 /* tb_instrusment.png */,
@@ -233,13 +276,6 @@
 				BEC3EC021AE93E5E00CB4EF7 /* CollectionViewCell.swift */,
 			);
 			name = CollectionViewCell;
-			sourceTree = "<group>";
-		};
-		BEC3EC0E1AE95E3A00CB4EF7 /* Library */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Library;
 			sourceTree = "<group>";
 		};
 		C4E2274BE8B68CC22DBDC37C /* Frameworks */ = {
@@ -335,16 +371,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE1338AA1AEBDB020072DC9C /* vehicle_tauhoa.jpg in Resources */,
 				BEC3EC531AE962E100CB4EF7 /* data.json in Resources */,
+				BE1338AB1AEBDB020072DC9C /* vehicle_taxi.jpeg in Resources */,
+				BE1338A71AEBDB020072DC9C /* animal_tiger.jpg in Resources */,
 				BEC3EBFD1AE939E900CB4EF7 /* tb_instrusment.png in Resources */,
+				BE1338AD1AEBDB020072DC9C /* vehicle_xemay.jpg in Resources */,
+				BE1338A81AEBDB020072DC9C /* vehicle_maybay.jpg in Resources */,
 				BEC3EBD51AE930EA00CB4EF7 /* LaunchScreen.xib in Resources */,
 				BEC3EC511AE962A800CB4EF7 /* cat.wav in Resources */,
 				BEC3EBD21AE930EA00CB4EF7 /* Images.xcassets in Resources */,
 				BEC3EC001AE93C7400CB4EF7 /* placeholder.png in Resources */,
+				BE1338A41AEBDB020072DC9C /* animal_cat.jpg in Resources */,
+				BE1338AC1AEBDB020072DC9C /* vehicle_xedap.jpeg in Resources */,
 				02D8C2A51AE9F3620000120B /* Categorirs.json in Resources */,
+				BEA6CEBC1AEB8AEA00958BA5 /* db.json in Resources */,
 				BEC3EBFE1AE939E900CB4EF7 /* tb_vehicle.png in Resources */,
 				BEC3EC0D1AE9508A00CB4EF7 /* BaseViewController.xib in Resources */,
+				BE1338A51AEBDB020072DC9C /* animal_chicken.jpg in Resources */,
+				BE1338A61AEBDB020072DC9C /* animal_dog.jpg in Resources */,
 				BEC3EBFC1AE939E900CB4EF7 /* tb_animal.png in Resources */,
+				BE1338A91AEBDB020072DC9C /* vehicle_oto.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +460,7 @@
 				02D8C2A31AE9EF1D0000120B /* SoundTouch.xcdatamodeld in Sources */,
 				02D8C2B01AEA1D540000120B /* Categories.swift in Sources */,
 				BEC3EBCB1AE930EA00CB4EF7 /* AppDelegate.swift in Sources */,
+				BEA6CEBF1AEB8BFC00958BA5 /* SwiftyJSON.swift in Sources */,
 				02D8C2691AE9EA310000120B /* DataManager.swift in Sources */,
 				02D8C2AC1AE9F5DF0000120B /* Model.swift in Sources */,
 				BEC3EC031AE93E5E00CB4EF7 /* CollectionViewCell.swift in Sources */,

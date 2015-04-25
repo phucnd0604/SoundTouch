@@ -38,8 +38,12 @@ class BaseViewController: UIViewController {
             dataSouce = Model.getModelByCategory(category)
             break
         case .instrusment:
+            let instrument = Categories.getCategoryByName("instrusment")
+            dataSouce = Model.getModelByCategory(instrument)
             break
         case .vehicle:
+            let vehicle = Categories.getCategoryByName("vehicle")
+            dataSouce = Model.getModelByCategory(vehicle)
             break
         case .unknown:
             break
@@ -69,7 +73,8 @@ extension BaseViewController: UICollectionViewDataSource {
 // MARK: - UICollectionViewDelegate
 extension BaseViewController: UICollectionViewDelegate {
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-        soundPlayer.playSound("cat.wav")
+        let model = dataSouce![indexPath.row]
+        soundPlayer.playSound(model.soundName)
     }
 }
 // MARK: - UICollectionViewDelegate

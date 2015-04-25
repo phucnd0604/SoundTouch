@@ -65,36 +65,33 @@ class DataManager {
     func initDataBase() {
         let categoriesFilePath = NSBundle.mainBundle().pathForResource("Categorirs", ofType: "json")
         let data = NSData(contentsOfFile: categoriesFilePath!)
-        if let json = NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.AllowFragments, error: nil) as? NSDictionary {
-            let categories = json["categories"] as! NSArray
-            let result = insertCategories(categories)
+        let json = JSON(data: data!, options: NSJSONReadingOptions.AllowFragments, error: nil)
+        let result = insertCategories(json)
+        if result.0 {
+            println("Init OK")
+            let dataFilePath = NSBundle.mainBundle().pathForResource("db", ofType: "json")
+            let datax = NSData(contentsOfFile: dataFilePath!)
+            var error: NSError?
+            let jsonx = JSON(data: datax!, options: NSJSONReadingOptions.AllowFragments, error: &error)
+            let result = insertModel(jsonx)
             if result.0 {
-                println("Init OK")
-                let dataFilePath = NSBundle.mainBundle().pathForResource("data", ofType: "json")
-                let datax = NSData(contentsOfFile: dataFilePath!)
-                if let jsonx = NSJSONSerialization.JSONObjectWithData(datax!, options: NSJSONReadingOptions.AllowFragments, error: nil) as? NSDictionary {
-                    let array = jsonx["data"] as! NSArray
-                    let result = insertModel(array)
-                    if result.0 {
-                        println("finish")
-                    } else {
-                        println(result.1)
-                    }
-                }
+                println("finish")
+            } else {
+                println(result.1)
             }
         }
     }
     
-    func insertCategories(categories: NSArray) -> (Bool, NSError?) {
+    func insertCategories(categories: JSON) -> (Bool, NSError?) {
         var count = 0
         let context = DataManager.shareInstance.mainObjectContext
         if categories.count <= 0 {
             return (false, nil)
         } else {
-            for aName in categories {
-                if Categories.getCategoryByName(aName as? String) == nil {
+            for (index: String, subJson: JSON) in categories {
+                if Categories.getCategoryByName(subJson.string) == nil {
                     let c = NSEntityDescription.insertNewObjectForEntityForName(kCategoriesModelName, inManagedObjectContext: context!) as! Categories
-                    c.name = aName as! String
+                    c.name = subJson.string!
                     count++
                 }
             }
@@ -102,19 +99,18 @@ class DataManager {
         var error: NSError?
         return (context!.save(nil), error)
     }
-    func insertModel(models: NSArray) -> (Bool, NSError?) {
+    func insertModel(models: JSON) -> (Bool, NSError?) {
         var count = 0
         let context = DataManager.shareInstance.mainObjectContext
         if models.count <= 0  {
             return (false,NSError(domain: "Error insert 0 object", code: 9191, userInfo: nil))
         } else {
-            for aName in models {
-                let dict = aName as! NSDictionary
-                if Model.getModelByName(dict["name"] as? String) == nil {
-                    if let name = dict["name"] as? String,
-                        category = dict["category"] as? String,
-                        soundname = dict["soundName"] as? String,
-                        imageName = dict["imageName"] as? String {
+            for (index: String, subJson: JSON) in models {
+                if Model.getModelByName(subJson["Name"].string) == nil {
+                    if let name = subJson["Name"].string,
+                        category = subJson["Category"].string,
+                        soundname = subJson["SoundName"].string,
+                        imageName = subJson["ImageName"].string {
                             let c = NSEntityDescription.insertNewObjectForEntityForName(kModel, inManagedObjectContext: context!) as! Model
                             c.name = name
                             c.imageName = imageName
