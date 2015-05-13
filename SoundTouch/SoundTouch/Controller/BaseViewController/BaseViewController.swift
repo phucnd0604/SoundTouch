@@ -74,7 +74,10 @@ extension BaseViewController: UICollectionViewDataSource {
 extension BaseViewController: UICollectionViewDelegate {
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         let model = dataSouce![indexPath.row]
-        soundPlayer.playSound(model.soundName)
+//        soundPlayer.playSound(model.soundName)
+        let detailVC = DetailViewController()
+        detailVC.model = model
+        self.presentViewController(detailVC, animated: true, completion: nil)
     }
 }
 // MARK: - UICollectionViewDelegate

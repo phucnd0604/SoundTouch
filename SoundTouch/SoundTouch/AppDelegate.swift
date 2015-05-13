@@ -10,6 +10,7 @@ import UIKit
 import Spring
 
 let soundPlayer = SoundPlayer()
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

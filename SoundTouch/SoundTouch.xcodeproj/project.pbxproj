@@ -24,6 +24,7 @@
 		BE1338AB1AEBDB020072DC9C /* vehicle_taxi.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BE1338A11AEBDB020072DC9C /* vehicle_taxi.jpeg */; };
 		BE1338AC1AEBDB020072DC9C /* vehicle_xedap.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = BE1338A21AEBDB020072DC9C /* vehicle_xedap.jpeg */; };
 		BE1338AD1AEBDB020072DC9C /* vehicle_xemay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE1338A31AEBDB020072DC9C /* vehicle_xemay.jpg */; };
+		BE3C60891B038877008EC46D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3C60881B038877008EC46D /* DetailViewController.swift */; };
 		BEA6CEBC1AEB8AEA00958BA5 /* db.json in Resources */ = {isa = PBXBuildFile; fileRef = BEA6CEBB1AEB8AEA00958BA5 /* db.json */; };
 		BEA6CEBF1AEB8BFC00958BA5 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA6CEBE1AEB8BFC00958BA5 /* SwiftyJSON.swift */; };
 		BEC3EBCB1AE930EA00CB4EF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC3EBCA1AE930EA00CB4EF7 /* AppDelegate.swift */; };
@@ -73,6 +74,7 @@
 		BE1338A11AEBDB020072DC9C /* vehicle_taxi.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vehicle_taxi.jpeg; sourceTree = "<group>"; };
 		BE1338A21AEBDB020072DC9C /* vehicle_xedap.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vehicle_xedap.jpeg; sourceTree = "<group>"; };
 		BE1338A31AEBDB020072DC9C /* vehicle_xemay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vehicle_xemay.jpg; sourceTree = "<group>"; };
+		BE3C60881B038877008EC46D /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		BEA6CEBB1AEB8AEA00958BA5 /* db.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = db.json; sourceTree = "<group>"; };
 		BEA6CEBE1AEB8BFC00958BA5 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		BEC3EBC51AE930EA00CB4EF7 /* SoundTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -139,6 +141,14 @@
 				71ECFE381D553BEEC1DD0F3E /* Pods-SoundTouch.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE3C60871B038862008EC46D /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BE3C60881B038877008EC46D /* DetailViewController.swift */,
+			);
+			name = DetailViewController;
 			sourceTree = "<group>";
 		};
 		BEA6CEBD1AEB8BF100958BA5 /* Library */ = {
@@ -213,6 +223,7 @@
 		BEC3EBEA1AE9333A00CB4EF7 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BE3C60871B038862008EC46D /* DetailViewController */,
 				02D8C2671AE9EA210000120B /* DadaManager */,
 				BEC3EBEB1AE9333A00CB4EF7 /* BaseViewController */,
 			);
@@ -457,6 +468,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE3C60891B038877008EC46D /* DetailViewController.swift in Sources */,
 				02D8C2A31AE9EF1D0000120B /* SoundTouch.xcdatamodeld in Sources */,
 				02D8C2B01AEA1D540000120B /* Categories.swift in Sources */,
 				BEC3EBCB1AE930EA00CB4EF7 /* AppDelegate.swift in Sources */,
